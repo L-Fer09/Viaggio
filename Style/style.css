@@ -1,0 +1,379 @@
+/*Resetar estilos por default*/
+/*seccion universal*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*componentes*/
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+:root{
+    --maintitulos:#477c9d;
+    --mainTextColor:#1a1d1d;
+    --mainbuttons: #F2A444;
+    --maintextbuttons:white;
+
+}
+
+h1{
+    font-family: "Montserrat", serif;
+    color: var(--maintitulos);
+    font-size: 40px;
+}
+.button{
+    background-color:var(--mainbuttons);
+    padding: 5px;
+    margin: 10px 10px;
+    border-radius: 10%;
+    color: var(--maintextbuttons);
+}
+
+body{
+    font-family: "Montserrat", serif;
+    font-family: "Roboto", serif;
+}
+
+/*Home*/
+
+header{
+    background-color: #F2A444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+.logo{
+    width:20%;
+}
+
+.logo_header{
+    height: 50px;
+    margin: 8px;
+}
+
+.buttonsHeader{
+    color: var(--maintextbuttons);
+    font-family: "Roboto", serif;
+    text-decoration: none;
+    width: 50%;
+}
+
+.buttonsHeader ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttonsHeader a {
+    color: var(--maintextbuttons);
+    font-family: "Roboto", serif;
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+}
+.inicioSesion{
+    width:30%;
+}
+
+/*Main_Home*/
+
+.banner_home{
+    width: 100%;
+}
+
+/*sevicios Home*/
+
+.servicios_h{
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.title_sercivios{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title_sercivios h1{
+    font-family: "Montserrat", serif;
+    color: var(--maintitulos);
+    padding: 15px;
+}
+.servicios_home{
+    padding: 15px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards_serviceshome{
+    padding: 15px;
+    align-content: center;
+}
+.cards_serviceshome h4{
+    padding: 35px;
+}
+.img_serviciohome{
+    width: 200px;
+    margin: auto;
+}
+
+/*Paquetes Home*/
+
+.paquetes_home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C9E7F2;
+    height: 500px;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C9E7F2;
+    
+}
+
+.cards_paquetesh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    height: auto;
+    width: 25%;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.img_paquetesh{
+    width: 200px;
+}
+.text_paquetes{
+    padding: 15px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.ButtonPaquetes{
+    background-color: var(--mainbuttons);
+    color: var(--maintextbuttons);
+    border-radius: 8PX;
+    padding: 10px;
+}
+.img_flecha{
+    height: 30px;
+    margin: 30px;
+}
+
+/*Banner 2*/
+
+.img_banner2{
+    width: 100%;
+}
+
+/*Calificaciones*/
+
+.calificaciones{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card_calificaciones{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #C9E7F2;
+    margin: 30px;
+
+}
+.img_personacal{
+    width: 100px;
+    margin: 30px;
+}
+
+.estrellas{
+    width: 120px;
+    margin-top: 20px;
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background-color: #C9E7F2;
+    flex-direction: column;
+}
+.footer_der{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 90%;
+    margin: 30px;
+}
+
+.footer_izq{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 90%;
+    margin: 30px;
+}
+.redes_sociales{
+    width: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+/*Pagina Destinos*/
+
+/*Main Destinos*/
+
+.banner_destinos{
+    height: auto;
+    width: 100%;
+}
+.img_banner_destinos{
+    width: 100%;
+}
+.Title_Visitados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.h1_visitados{
+    width: 25%;
+    margin-left: 120px;
+    text-align: start;
+    height: auto;
+
+}
+
+.p_visitados{
+    width: 70%;
+    margin: 70px;
+    text-align: justify;
+
+}
+
+.visitados_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards_visit_central{
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+.img_banner_visitados_horizontal{
+    margin: 10px;
+}
+
+.paquetes_d{
+    padding: 15px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #C9E7F2;
+
+}
+.cards_paquetes{
+    padding: 15px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.cards_paquetes h4{
+    padding: 35px;
+}
+.img_serviciohome{
+    width: 200px;
+    margin: auto;
+}
+
+.ofertas_destinos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+    margin: 100px;
+}
+
+
+.cards_ofertas_destinos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.cards_paquetesh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 25%;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #C9E7F2;
+}
+
+.img_paquetesh{
+    width: 200px;
+}
+.text_paquetes{
+    padding: 15px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.ButtonPaquetes{
+    background-color: var(--mainbuttons);
+    color: var(--maintextbuttons);
+    border-radius: 8PX;
+    padding: 10px;
+}
+.img_flecha{
+    height: 30px;
+    margin: 30px;
+}
